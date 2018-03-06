@@ -27,8 +27,8 @@ Finally, your script must handle anomalous situations, e.g. when the script is i
 
 Hint: Here are some Java files, you can use to test your script:
 
-ClassWithTest.java
-Main.java
-Client.java
-insertion_Sort.java
+* ClassWithTest.java
+* Main.java
+* Client.java
+* insertion_Sort.java
 
