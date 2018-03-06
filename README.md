@@ -6,7 +6,7 @@ The assignment requires that you use functions, types and classes from the Pytho
 
 Solution format: implement the required script in a file refactor.py, adequately commented.
 
-Script Specifications
+## Script Specifications
 
 Write a Python script refactor.py that takes two arguments: a URL and a path. The URL must point to a Java source file on a remote host; whereas the second argument must be the path of a local file containing a Java snippet. This snippet can be assumed to be the declaration of a single static method that takes an Object as argument and returns a String. Note that you should not make any assumption on the method name, i.e. methods in different snipped files can have different names.
 
