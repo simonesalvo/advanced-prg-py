@@ -1,11 +1,11 @@
-from urllib2 import Request, urlopen, URLError
 import os
-import sys
 import re
-from subprocess import Popen, PIPE
+import sys
 from datetime import datetime
+from subprocess import Popen, PIPE
+from urllib2 import Request, urlopen, URLError
 
-print (sys.version)
+print "Python version: " + sys.version
 
 methodNameRegex = r"(\w*)[(]"
 substitutionRegex = r"(System.out.println\()((\w*\s*\S*\W*)*)(\);)"
